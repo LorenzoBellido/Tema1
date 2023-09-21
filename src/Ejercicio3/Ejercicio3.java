@@ -6,21 +6,25 @@ public class Ejercicio3 {
 
 	public static void main(String[] args) {
 		// Variable
-		int añoac;
-		int añobr;
+		// Declaro como enteras las variables de los años y edad
+		int añoact;
+		int añonac;
 		int edad;
 		
 		Scanner sc = new Scanner(System.in);
 		
 		// Instrucciones
-		System.out.print("¿En qué año estamos? ");
-		añoac = sc.nextInt();
+		// Pido el año actual
+		System.out.print("¿En qué año estamos? "); //Muestro un mensaje en la consola
+		añoact = sc.nextInt();
 		
-		System.out.print("¿En qué año naciste? ");
-		añobr = sc.nextInt();
+		//Pido el año de nacimiento
+		System.out.print("¿En qué año naciste? "); //Muestro un mensaje en la consola
+		añonac = sc.nextInt();
+		// Calculo la edad restando el año actual con el año de nacimiento
+		edad = añoact - añonac;
 		
-		edad = añoac - añobr;
-		
+		// Muestro su edad actual
 		System.out.print("Tu edad es: " + edad);
 		// Cierre
 		sc.close();
