@@ -13,7 +13,7 @@ public class Ejercicio2_4 {
 		boolean biblioteca;
 		// Variable boolean llueve
 		boolean llueve;
-		// Variable boolean tareasfin
+		// Variable boolean tareasFin
 		boolean tareasfin;
 		
 		// Scanner para leer teclado
