@@ -9,6 +9,9 @@ public class Ejercicio2 {
 		// Variable donde guardar un número
 		int numero;
 		
+		// Variable donde guardar el resto
+		int resto;
+		
 		// Variable donde guardar la cantidad a sumar
 		int sumar;
 		
@@ -22,7 +25,9 @@ public class Ejercicio2 {
 		numero = sc.nextInt();
 		
 		// Realizo la operación del módulo y lo guardo en 
-		sumar = 7-(numero%7);
+		resto = (numero%7);
+		
+		//resto != 0 
 		
 		// Muestro la solución
 		System.out.println("Para ser multiplo de 7 le tienes que sumar: " + sumar);
