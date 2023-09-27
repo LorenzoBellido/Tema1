@@ -24,6 +24,7 @@ public class Ejercicio2 {
 		// Realizo la operación del módulo y lo guardo en 
 		resto = (numero%7);
 		
+		// Realizo la condición de si el numero ya es multiplo
 		resto = resto== 0? 0 : 7 - resto;
 		
 		// Muestro la solución

@@ -33,6 +33,9 @@ public class Ejercicio3 {
 		// Realizo la operación del módulo y lo guardo en sumar
 		sumar = 7-(numero1%numero2);
 		
+		// Realizo la condición de si el numero ya es multiplo
+		sumar = sumar == 0? 0 : 7 - sumar;
+		
 		// Muestro la solución
 		System.out.println("Para que " + numero1 + " sea multiplo de " + numero2 + " le tienes que sumar " + sumar);
 	}
