@@ -12,9 +12,6 @@ public class Ejercicio2 {
 		// Variable donde guardar el resto
 		int resto;
 		
-		// Variable donde guardar la cantidad a sumar
-		int sumar;
-		
 		// Scanner para leer el teclado
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,10 +24,10 @@ public class Ejercicio2 {
 		// Realizo la operación del módulo y lo guardo en 
 		resto = (numero%7);
 		
-		//resto != 0 
+		resto = resto== 0? 0 : 7 - resto;
 		
 		// Muestro la solución
-		System.out.println("Para ser multiplo de 7 le tienes que sumar: " + sumar);
+		System.out.println("Para ser multiplo de 7 le tienes que sumar: " + resto);
 	}
 
 }
