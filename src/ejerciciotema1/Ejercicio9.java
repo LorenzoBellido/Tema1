@@ -34,6 +34,9 @@ public class Ejercicio9 {
 		
 		// Muestro el resultado final
 		System.out.println(resultado);
+		
+		// Cierro el Scanner
+		sc.close();
 	}
 
 }
