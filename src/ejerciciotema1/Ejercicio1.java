@@ -24,6 +24,8 @@ public class Ejercicio1 {
 		// Mostraos el numero redondeado
 		System.out.println("Su numero redondeado es: " + (int)numero);
 
+		// Cerramos el Scanner
+		sc.close();
 	}
 
 }

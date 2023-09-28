@@ -13,7 +13,7 @@ public class Ejercicio3 {
 		int numero2;
 		
 		// Variable donde guardar la cantidad a sumar
-		int sumar;
+		int resto;
 		
 		// Scanner para leer el teclado
 		Scanner sc = new Scanner(System.in);
@@ -31,13 +31,16 @@ public class Ejercicio3 {
 		numero2 = sc.nextInt();
 		
 		// Realizo la operación del módulo y lo guardo en sumar
-		sumar = 7-(numero1%numero2);
+		resto = (numero1%numero2);
 		
 		// Realizo la condición de si el numero ya es multiplo
-		sumar = sumar == 0? 0 : 7 - sumar;
+		resto = resto == 0? 0 : numero2 - resto;
 		
 		// Muestro la solución
-		System.out.println("Para que " + numero1 + " sea multiplo de " + numero2 + " le tienes que sumar " + sumar);
+		System.out.println("Para que " + numero1 + " sea multiplo de " + numero2 + " le tienes que sumar " + resto);
+	
+		// Cierro el scanner
+		sc.close();
 	}
 
 }

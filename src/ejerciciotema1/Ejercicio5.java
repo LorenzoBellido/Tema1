@@ -53,7 +53,7 @@ public class Ejercicio5 {
 		y = (a*Math.pow(x, 2))+(b*x)+c;
 		
 		// Muestro el resultado
-		System.out.println("La Y es; " + y);
+		System.out.println("La Y es: " + y);
 		
 		// Cierro el scanner
 		sc.close();

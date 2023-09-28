@@ -29,6 +29,9 @@ public class Ejercicio2 {
 		
 		// Muestro la solución
 		System.out.println("Para ser multiplo de 7 le tienes que sumar: " + resto);
+	
+		// Cierro el Scanner
+		sc.close();
 	}
 
 }
