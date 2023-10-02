@@ -29,6 +29,9 @@ public class Ejercicio10 {
 		
 		// Muestro el resultado
 		System.out.println("La distancia es de: " + centimetros + "cm.");
+		
+		// Cierro Scanner
+		sc.close();
 
 	}
 
